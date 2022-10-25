@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background: rgb(149,149,176);
+    background: radial-gradient(circle, rgba(149,149,176,1) 0%, rgba(207,207,210,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 550px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.header{
+    text-align: center;
+}
+
+.languages-container{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    padding: 0px 20px 0px 20px;
+}
+
+.result-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
